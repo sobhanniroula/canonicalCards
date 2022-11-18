@@ -1,0 +1,41 @@
+@import "vanilla-framework";
+@include vanilla;
+
+section {
+    min-height: 100vh;
+
+    .row {
+        .card {
+            border-top: 3px solid #6e264b;
+            box-shadow: 5px 5px 5px 2px #ccc;
+
+            .topic-type {
+                padding: 20px 0 0 20px;
+                text-transform: uppercase;
+            }
+    
+            .card-details {
+                height: 210px;
+
+                a {
+                    text-decoration: none;
+                    color: #24598F;
+
+                    .card-title {
+                        height: 72%;
+                        font-weight: 500;
+                    }
+                }
+
+                a:hover {
+                    color: #06C;
+                }
+            }
+
+            .card-type {
+                text-transform: capitalize;
+            }
+        }
+        
+    }
+}
